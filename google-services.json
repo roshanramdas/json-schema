@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "347511409012",
+    "project_id": "findmybook-c1652",
+    "storage_bucket": "findmybook-c1652.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347511409012:android:82ecca4aafbabd8a2ec421",
+        "android_client_info": {
+          "package_name": "com.example.findmybook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347511409012-6uejautolugce79828khgg7dg90q9nes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdKvbTDBBPXthYg7tQIOJs2YE0Hnrw3HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347511409012-6uejautolugce79828khgg7dg90q9nes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

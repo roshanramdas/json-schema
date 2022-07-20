@@ -1,0 +1,365 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Id": {
+      "type": "integer"
+    },
+    "BookID": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "ImageId": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "Id": {
+                      "type": "integer"
+                    },
+                    "ImageOf": {
+                      "type": "string"
+                    },
+                    "Image": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Id",
+                    "ImageOf",
+                    "Image"
+                  ]
+                }
+              ]
+            },
+            "Title": {
+              "type": "string"
+            },
+            "Author": {
+              "type": "string"
+            },
+            "Price": {
+              "type": "number"
+            },
+            "Description": {
+              "type": "string"
+            },
+            "IsAvailable": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "Id",
+            "ImageId",
+            "Title",
+            "Author",
+            "Price",
+            "Description",
+            "IsAvailable"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "ImageId": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "Id": {
+                      "type": "integer"
+                    },
+                    "ImageOf": {
+                      "type": "string"
+                    },
+                    "Image": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Id",
+                    "ImageOf",
+                    "Image"
+                  ]
+                }
+              ]
+            },
+            "Title": {
+              "type": "string"
+            },
+            "Author": {
+              "type": "string"
+            },
+            "Price": {
+              "type": "number"
+            },
+            "Description": {
+              "type": "string"
+            },
+            "IsAvailable": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "Id",
+            "ImageId",
+            "Title",
+            "Author",
+            "Price",
+            "Description",
+            "IsAvailable"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "ImageId": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "Id": {
+                      "type": "integer"
+                    },
+                    "ImageOf": {
+                      "type": "string"
+                    },
+                    "Image": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Id",
+                    "ImageOf",
+                    "Image"
+                  ]
+                }
+              ]
+            },
+            "Title": {
+              "type": "string"
+            },
+            "Author": {
+              "type": "string"
+            },
+            "Price": {
+              "type": "number"
+            },
+            "Description": {
+              "type": "string"
+            },
+            "IsAvailable": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "Id",
+            "ImageId",
+            "Title",
+            "Author",
+            "Price",
+            "Description",
+            "IsAvailable"
+          ]
+        }
+      ]
+    },
+    "AmenityID": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "Name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "Name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "Name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "Name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "Name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "Name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "Name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "Name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "Name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "Name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "Name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "Name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "Name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "Name"
+          ]
+        }
+      ]
+    },
+    "ImageID": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "ImageOf": {
+              "type": "string"
+            },
+            "Image": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "ImageOf",
+            "Image"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Id": {
+              "type": "integer"
+            },
+            "ImageOf": {
+              "type": "string"
+            },
+            "Image": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Id",
+            "ImageOf",
+            "Image"
+          ]
+        }
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Contact": {
+      "type": "integer"
+    },
+    "Latitude": {
+      "type": "number"
+    },
+    "Longitude": {
+      "type": "number"
+    },
+    "Rating": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "Id",
+    "BookID",
+    "AmenityID",
+    "ImageID",
+    "Name",
+    "Address",
+    "Contact",
+    "Latitude",
+    "Longitude",
+    "Rating"
+  ]
+}
